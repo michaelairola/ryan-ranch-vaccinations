@@ -3,6 +3,8 @@ FROM ruby:2 AS build
 RUN gem install bundler
 
 WORKDIR /workspace
+RUN pwd
+RUN ls
 COPY Gemfile* /workspace/
 RUN bundle install
 

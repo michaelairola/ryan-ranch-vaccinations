@@ -7,6 +7,8 @@ RUN gem install bundler
 # RUN ls
 # COPY Gemfile* /workspace/
 COPY . .
+RUN pwd
+RUN ls
 RUN bundle install
 
 # COPY . /workspace

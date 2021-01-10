@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/ryan-ranch-vaccinations', '-f', '_build/Dockerfile', '.']
+  args: ['build', '-t', 'gcr.io/ryan-ranch-vaccinations/master', '-f', '_build/Dockerfile', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/ryan-ranch-vaccinations']
+  args: ['push', 'gcr.io/ryan-ranch-vaccinations/master']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'run', 'deploy', 'resume', '--image', 'gcr.io/ryan-ranch-vaccinations', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']
+  args: ['beta', 'run', 'deploy', 'resume', '--image', 'gcr.io/ryan-ranch-vaccinations/master', '--region', 'us-central1', '--platform', 'managed', '--allow-unauthenticated']

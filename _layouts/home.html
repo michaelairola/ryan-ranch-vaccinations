@@ -15,7 +15,7 @@
 
                     <div class="pmui-container">
 
-                        {% if site.button-label and site.button-link %}<p><a href="mailto:{{ site.button-link }}" class="pmui-button pmui-button--cyan">{{ site.button-label }}</a></p>{% endif %}
+                        {% if site.button-label and site.button-link %}<p><a href="{{ site.button-link }}" class="pmui-button pmui-button--cyan">{{ site.button-label }}</a></p>{% endif %}
 
                     </div>
 
@@ -37,7 +37,7 @@
 
                                     {% if project.description %}<p>{{ project.description }}</p>{% endif %}
 
-                                    {% if project.link %}<p><a href="{{ project.link }}" target="_blank" class="pmui-button pmui-button--ghost">Visit Website</a></p>{% endif %}
+                                    {% if project.link %}<p><a href="{{ project.link }}" target="_blank" class="pmui-button pmui-button--ghost">Download</a></p>{% endif %}
 
                                 </div>
 
@@ -53,11 +53,11 @@
 
                     <div class="pmui-container">
 
-                        <h2>Get in touch</h2>
+                        <h2>Schedule Vaccination</h2>
 
-                        <p>Let's chat about your next project</p>
+                        <p>Let's get you an appointment</p>
 
-                        {% if site.button-label and site.button-link %}<p><a href="mailto:{{ site.button-link }}" class="pmui-button pmui-button--cyan">{{ site.button-label }}</a></p>{% endif %}
+                        {% if site.button-label and site.button-link %}<p><a href="{{ site.button-link }}" class="pmui-button pmui-button--cyan">{{ site.button-label }}</a></p>{% endif %}
 
                     </div>
 

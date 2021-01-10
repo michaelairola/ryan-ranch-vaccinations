@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/ryan-ranch-vaccinations', '--file', '_build/Dockerfile', '.']
+  args: ['build', '-t', 'gcr.io/ryan-ranch-vaccinations', '-f', '_build/Dockerfile', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/ryan-ranch-vaccinations']
 - name: 'gcr.io/cloud-builders/gcloud'

@@ -4,8 +4,6 @@ RUN gem install bundler
 
 COPY . .
 
-# WORKDIR /workspace
-# COPY Gemfile* /workspace/
 RUN bundle install
 
 # COPY . /workspace
@@ -17,6 +15,5 @@ FROM nginx:1
 WORKDIR /app
 COPY _app /app
 COPY --from=build _site /app/site
-# COPY --from=build /workspace/_site /app/site
 
 CMD ["/app/start.sh"]

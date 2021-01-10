@@ -3,11 +3,10 @@ FROM ruby:2 AS build
 RUN gem install bundler
 
 WORKDIR /workspace
-COPY . .
-# COPY Gemfile* /workspace/
+COPY Gemfile* /workspace/
 RUN bundle install
 
-# COPY . /workspace
+COPY . /workspace
 ENV JEKYLL_ENV=production
 RUN bundle exec jekyll build
 

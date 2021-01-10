@@ -2,13 +2,9 @@ FROM ruby:2 AS build
 
 RUN gem install bundler
 
-# WORKDIR /workspace
-# RUN pwd
-# RUN ls
-# COPY Gemfile* /workspace/
+WORKDIR /workspace
 COPY . .
-RUN pwd
-RUN ls
+# COPY Gemfile* /workspace/
 RUN bundle install
 
 # COPY . /workspace
@@ -18,8 +14,8 @@ RUN bundle exec jekyll build
 
 FROM nginx:1
 
-# WORKDIR /app
+WORKDIR /app
 COPY _app /app
-COPY --from=build /_site /app/site
+COPY --from=build /workspace/_site /app/site
 
 CMD ["/app/start.sh"]

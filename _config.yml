@@ -1,18 +1,18 @@
-# Site settings
-title: Ryan Ranch Vaccine
+# Site Settings
+title: Ryan Ranch Vaccines
 author: Michael Airola
 description: >- # this means to ignore newlines until "baseurl:"
-  Need a vaccine in the Monterey area? Schedule an apointment at Ryan Ranch and download all necessary paperwork
+  Need a vaccine for COVID-19 in the Monterey area? Schedule an apointment at Ryan Ranch and download all necessary paperwork
   here!
 keywords:
   vaccine, vaccines, vaccination, vaccinations, ryan ranch
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://localhost.com:4000"
-url: "https://ryanranchvaccine.com"
+# url tbd
+url: "https://google.com"
 
 # Home intro
 # intro-line-1: Need a vaccine? Schedule an apointment and download all necessary paperwork here!
-intro-line-1: Need a vaccine in the Monterey area? 
+intro-line-1: Need a vaccine for COVID-19 in the Monterey area? 
 intro-line-2: Schedule an apointment and download all necessary paperwork here!
 
 # Contact button
@@ -21,23 +21,25 @@ button-link: https://michaelairola.com
 
 # Projects
 projects:
-  # - name: 
   - name: Download Paperwork
     description: Download the necessary paperwork for a quick and easy appointment
-    image: ximenacalle.png
-    link: http://ximenacalle.com
+    image: paperwork.png
+    link: /assets/images/icon.png
+  - name: CDC information on COVID-19
+    description: Click here to review what the CDC has to say about the COVID-19 virus and vaccines for it
+    link: https://www.cdc.gov/coronavirus/2019-ncov/index.html
 
 # Social
-socialmedia:
+# socialmedia:
 
-  - name: Facebook
-    link: https://www.facebook.com/pandamints
+#   - name: Facebook
+#     link: https://www.facebook.com/pandamints
 
-  - name: Twitter
-    link: https://twitter.com/wearepandamints
+#   - name: Twitter
+#     link: https://twitter.com/wearepandamints
 
-  - name: Instagram
-    link: https://www.instagram.com/upscalemints/
+#   - name: Instagram
+#     link: https://www.instagram.com/upscalemints/
 
 # Google Analytics
 # gaid: UA-109520023-1

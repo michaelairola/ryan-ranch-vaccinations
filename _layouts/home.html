@@ -14,9 +14,15 @@
                 <section class="cta">
 
                     <div class="container">
-
-                        {% if site.button-label and site.button-link %}<p><a href="{{ site.button-link }}" class="button button--cyan">{{ site.button-label }}</a></p>{% endif %}
-
+                        {% if site.active %}
+                            <p><a href="{{ site.active-button-link }}" class="button button--cyan">
+                                {{ site.active-button-label }}
+                            </a></p>
+                        {% else %}
+                            <p><a href="{{ site.button-link }}" class="button button--cyan">
+                            {{ site.button-label }}
+                            </a></p>
+                        {% endif %}
                     </div>
 
                 </section>
@@ -61,11 +67,15 @@
                 <section class="cta">
 
                     <div class="container">
-
+                    {% if site.active %}
                         <h2>Let's get you an appointment</h2>
                         <br/>
-                        {% if site.button-label and site.button-link %}<p><a href="{{ site.button-link }}" class="button button--cyan">{{ site.button-label }}</a></p>{% endif %}
-
+                        {% if site.active-button-label and site.button-link %}<p><a href="{{ site.active-button-link }}" class="button button--cyan">{{ site.active-button-label }}</a></p>{% endif %}
+                    {% else %}
+                        <h2>Join waiting list</h2>
+                        <br/>
+                        {% if site.active-button-label and site.button-link %}<p><a href="{{ site.button-link }}" class="button button--cyan">{{ site.button-label }}</a></p>{% endif %}
+                    {% endif %}
                     </div>
 
                 </section>

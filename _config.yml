@@ -1,38 +1,57 @@
 # Site Settings
 title: Ryan Ranch Vaccines
 author: Michael Airola
-description: >- # this means to ignore newlines until "baseurl:"
-  Need a vaccine for COVID-19 in the Monterey area? Schedule an apointment at Ryan Ranch and download all necessary paperwork
-  here!
+# description: >-
+#   Need a vaccine for COVID-19 in the Monterey area? Schedule an apointment at Ryan Ranch and download all necessary paperwork
+#   here!
+description: >-
+  Want to be alerted for future updates on the COVID-19 vaccination status for ryan ranch pediatrics medical group? 
+  Click on the below link and fill out the form to do so!
+
 keywords:
   vaccine, vaccines, vaccination, vaccinations, ryan ranch
-baseurl: "" # the subpath of your site, e.g. /blog
 
+active: false
 
-# Home intro
-intro-line-1: Need a vaccine for COVID-19 in the Monterey area? 
-intro-line-2: Schedule an apointment and download all necessary paperwork here!
+# Home intros
+intro-1: Want to be alerted for future updates on the COVID-19 vaccination status for ryan ranch pediatrics medical group?
+intro-2: Click on the below link and fill out the form to do so!
 
-# Contact button
-button-label: Schedule Vaccination
-button-link: https://www.appointmentplus.com/solutions/medical-scheduling-software/
+intro-active-1: Need a vaccine for COVID-19 in the Monterey area? 
+intro-active-2: Schedule an apointment and download all necessary paperwork here!
+
+# Contact buttons
+button-label: Join waiting list for vaccines
+button-link: https://docs.google.com/forms/d/e/1FAIpQLSfXVdPIK9rYKhnuIF_fGkr_GHPX4q_8qtWk4PB0yytWBV3L_w/viewform
+
+active-button-label: Schedule Vaccination
+active-button-link: https://www.appointmentplus.com/solutions/medical-scheduling-software/
 
 # Projects
 projects:
-  - name: Download Paperwork
-    description: Download the necessary paperwork for a quick and easy appointment
-    image: paperwork.png
-    link: /assets/images/paperwork.pdf
-    type: download
-  - name: CDC information on COVID-19
-    description: Click here to review what the CDC has to say about the COVID-19 virus and vaccines for it
-    link: https://www.cdc.gov/coronavirus/2019-ncov/index.html
+  # - name: Download Paperwork
+  #   description: Download the necessary paperwork for a quick and easy appointment
+  #   image: paperwork.png
+  #   link: /assets/images/paperwork.pdf
+  #   type: download
+  - name: Our information on COVID-19
+    description: Click here to check what we have to say about the COVID-19 virus
+    link: https://www.mppmg.com/covid-19.html
+    image: mppg.com.png
     type: link
-# Social
-# socialmedia:
+  # - name: CDC information on COVID-19
+  #   description: Click here to review what the CDC has to say about the COVID-19 virus and vaccines for it
+  #   link: https://www.cdc.gov/coronavirus/2019-ncov/index.html
+  #   type: link
 
-#   - name: Facebook
-#     link: https://www.facebook.com/
+# Social
+socialmedia:
+
+  - name: Facebook
+    link: https://www.facebook.com/pediatricians?ref=ts
+  
+  - name: Email
+    link: mailto:mppmginfo@gmail.com
 
 #   - name: Twitter
 #     link: https://twitter.com/

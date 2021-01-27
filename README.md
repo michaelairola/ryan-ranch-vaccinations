@@ -1,2 +1,2 @@
-# Panda Mints, Ltda.
-Official website for Panda Mints based on Jekyll and Github Pages.
+# Ryan Ranch Vaccination Landing Page
+Official website for Ryan ranch vaccination landing page using Jekyll and Github.

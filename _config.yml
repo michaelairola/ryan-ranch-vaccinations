@@ -8,8 +8,8 @@ keywords:
   vaccine, vaccines, vaccination, vaccinations, ryan ranch
 baseurl: "" # the subpath of your site, e.g. /blog
 
+
 # Home intro
-# intro-line-1: Need a vaccine? Schedule an apointment and download all necessary paperwork here!
 intro-line-1: Need a vaccine for COVID-19 in the Monterey area? 
 intro-line-2: Schedule an apointment and download all necessary paperwork here!
 
@@ -32,13 +32,13 @@ projects:
 # socialmedia:
 
 #   - name: Facebook
-#     link: https://www.facebook.com/pandamints
+#     link: https://www.facebook.com/
 
 #   - name: Twitter
-#     link: https://twitter.com/wearepandamints
+#     link: https://twitter.com/
 
 #   - name: Instagram
-#     link: https://www.instagram.com/upscalemints/
+#     link: https://www.instagram.com/
 
 # Google Analytics
 # gaid: UA-109520023-1

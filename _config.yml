@@ -7,7 +7,9 @@ author: Michael Airola
 description: >-
   Want to be alerted for future updates on the COVID-19 vaccination status for ryan ranch pediatrics medical group? 
   Click on the below link and fill out the form to do so!
-
+whois: >-
+  Ryan Ranch Vaccine Clinic is run by Monterey Peninsula Pediatric Medical Group. 
+  As a COVID-19 Vaccination Program, we administer Pfizer and Moderna Vaccines distributed by Monterey County Health Department.
 keywords:
   vaccine, vaccines, vaccination, vaccinations, ryan ranch
 
@@ -34,22 +36,30 @@ projects:
   #   image: paperwork.png
   #   link: /assets/images/paperwork.pdf
   #   type: download
-  - name: Our information on COVID-19
-    description: Click here to check what we have to say about the COVID-19 virus
-    link: https://www.mppmg.com/covid-19.html
-    image: mppg.com.png
+  - name: CDC information on COVID-19
+    description: Click here to review what the CDC has to say about the COVID-19 virus and vaccines for it
+    image: cdc.png
+    link: https://www.cdc.gov/coronavirus/2019-ncov/index.html
     type: link
-  # - name: CDC information on COVID-19
-  #   description: Click here to review what the CDC has to say about the COVID-19 virus and vaccines for it
-  #   link: https://www.cdc.gov/coronavirus/2019-ncov/index.html
-  #   type: link
+about:
+  - name: Our Location
+    image: location.jpeg
+    lines: 
+      - 2 Upper Ragsdale Dr suite b-210, Monterey, CA 93940
+
+  - name: Other Info 
+    image: about.jpeg
+    lines: 
+      - "Phone: 831-333-0999"
+      - "Fax: 831-333-0909"
+      - "Mail: mppmginfo@gmail.com"
 
 # Social
 socialmedia:
-
+  
   - name: Facebook
     link: https://www.facebook.com/pediatricians?ref=ts
-  
+
   - name: Email
     link: mailto:mppmginfo@gmail.com
 

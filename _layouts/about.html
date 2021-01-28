@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: page.lang | default: 'en' }}">
+
+    {% include head.html %}
+
+    <body id="ryanranchvaccines" class="theme--light ui">
+
+        <div class="wrapper">
+
+            <header id="header">
+                <div class="header--logo">
+                    <div class="container">{% include logo.html %}</div>
+                </div>
+                <div style="padding-top:0px;margin-top:-40px;" class="header--intro">
+                    <div class="container">
+                        <div class="intro--text">
+                            <p>{{ site.whois }}</p><br>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <main id="main" role="main" class="ui">
+
+                <section class="projects">
+
+                    <div class="container">
+
+                        {% for about in site.about %}
+
+                            <div class="project">
+
+                                <div class="project--image" style="background-image: url('/assets/images/{{ about.image }}');"></div>
+
+                                <div class="project--content">
+                                    {% if about.name %}
+                                        <h3>{{ about.name }}</h3>
+                                    {% endif %}
+                                    {% for l in about.lines %}
+                                        <p>{{l}}</p>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+
+                </section>
+
+                <section class="cta">
+                    <div class="container">
+                    <br/>
+                    {% if site.active-button-label and site.button-link %}<p><a href="/home" class="button button--cyan">
+                    Back to main page</a></p>
+                    {% endif %}
+                    </div>
+                </section>
+            </main>
+
+            {% include footer.html %}
+
+        </div>
+
+    </body>
+
+</html>

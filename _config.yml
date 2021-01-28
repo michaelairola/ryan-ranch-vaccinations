@@ -72,7 +72,7 @@ socialmedia:
 
 # Google Analytics
 # gaid: UA-109520023-1
-
+gaid: G-CMBSQKVY1K
 # Build settings
 plugins:
   - jekyll-feed

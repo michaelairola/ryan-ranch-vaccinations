@@ -5,8 +5,9 @@ author: Michael Airola
 #   Need a vaccine for COVID-19 in the Monterey area? Schedule an apointment at Ryan Ranch and download all necessary paperwork
 #   here!
 description: >-
-  Want to be alerted for future updates on the COVID-19 vaccination status for ryan ranch pediatrics medical group? 
-  Click on the below link and fill out the form to do so!
+  Now vaccinating healthcare providers and individuals age 75 and older. 
+  Want to b alerted when vaccine appointments become available? 
+  Fill out the interest form below.
 whois: >-
   Ryan Ranch Vaccine Clinic is run by Monterey Peninsula Pediatric Medical Group. 
   As a COVID-19 Vaccination Program, we administer Pfizer and Moderna Vaccines distributed by Monterey County Health Department.
@@ -16,8 +17,8 @@ keywords:
 active: false
 
 # Home intros
-intro-1: Want to be alerted for future updates on the COVID-19 vaccination status for ryan ranch pediatrics medical group?
-intro-2: Click on the below link and fill out the form to do so!
+intro-1: Now vaccinating healthcare providers and individuals age 75 and older.
+intro-2: Want to be alerted when vaccine appointments become available? Fill out the interest form below.
 
 intro-active-1: Need a vaccine for COVID-19 in the Monterey area? 
 intro-active-2: Schedule an apointment and download all necessary paperwork here!
@@ -52,7 +53,7 @@ about:
     lines: 
       - "Phone: 831-333-0999"
       - "Fax: 831-333-0909"
-      - "Mail: mppmginfo@gmail.com"
+      - "Mail: ryanranchvaccines@gmail.com"
 
 # Social
 socialmedia:
@@ -61,7 +62,7 @@ socialmedia:
     link: https://www.facebook.com/pediatricians?ref=ts
 
   - name: Email
-    link: mailto:mppmginfo@gmail.com
+    link: mailto:ryanranchvaccines@gmail.com
 
 #   - name: Twitter
 #     link: https://twitter.com/

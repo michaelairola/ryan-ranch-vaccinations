@@ -3,6 +3,7 @@ _site
 .jekyll-metadata
 bin
 .DS_Store
+.jekyll-cache/
 # Gemfile
 # Gemfile.lock
 node_modules

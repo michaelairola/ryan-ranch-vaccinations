@@ -48,12 +48,10 @@ about:
     lines: 
       - 2 Upper Ragsdale Dr suite b-210, Monterey, CA 93940
 
-  - name: Other Info 
+  - name: Email 
     image: about.jpeg
     lines: 
-      - "Phone: 831-333-0999"
-      - "Fax: 831-333-0909"
-      - "Mail: ryanranchvaccines@gmail.com"
+      - "ryanranchvaccines@gmail.com"
 
 # Social
 socialmedia:

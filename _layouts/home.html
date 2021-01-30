@@ -44,7 +44,7 @@
                                     {% if project.description %}<p>{{ project.description }}</p>{% endif %}
 
                                     {% if project.link %}
-                                    <p><a href="{{ project.link }}" target="_blank" class="button button--ghost">
+                                    <p><a href="{{ project.link }}" target="_blank" class="button button--ghost" rel="noopener" >
                                     {% if project.type == "download" %}
                                         Download
                                     {% else if project.type == "link" %}

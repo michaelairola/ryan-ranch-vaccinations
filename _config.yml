@@ -5,9 +5,8 @@ author: Michael Airola
 #   Need a vaccine for COVID-19 in the Monterey area? Schedule an apointment at Ryan Ranch and download all necessary paperwork
 #   here!
 description: >-
-  Now vaccinating healthcare providers and individuals age 75 and older. 
-  Want to b alerted when vaccine appointments become available? 
-  Fill out the interest form below.
+  Accepting interest for healthcare providers and individuals age 75 and older.
+  Vaccinating as supply becomes available.
 whois: >-
   Ryan Ranch Vaccine Clinic is run by Monterey Peninsula Pediatric Medical Group. 
   As a COVID-19 Vaccination Program, we administer Pfizer and Moderna Vaccines distributed by Monterey County Health Department.
@@ -17,8 +16,8 @@ keywords:
 active: false
 
 # Home intros
-intro-1: Now vaccinating healthcare providers and individuals age 75 and older.
-intro-2: Want to be alerted when vaccine appointments become available? Fill out the interest form below.
+intro-1: Accepting interest for healthcare providers and individuals age 75 and older.
+intro-2: Vaccinating as supply becomes available.
 
 intro-active-1: Need a vaccine for COVID-19 in the Monterey area? 
 intro-active-2: Schedule an apointment and download all necessary paperwork here!
